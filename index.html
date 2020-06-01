@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Gelado GABI</title>
+    <script src="https://kit.fontawesome.com/8c100b4e25.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="div_navbar">
+        <nav class="navbar">
+            <ul class="links">
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Destinos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+
+            <div class="menu">
+                <a class="menu_hamburguer" href="#">
+                    <i class="fas fa-bars icon_menu"></i>
+                </a>
+
+            </div>
+        </nav>
+    </div>
+
+
+    <header>
+        <div class="header_div">
+            <h1 class="header_h1">MUNDO GELADO</h1>
+            <p class="header_p">A agência de viagens que te leva aos lugares mais congelantes do planeta!</p>
+        </div>
+        <div class="div_header_btn">
+            <button class="btn_header_style">QUERO SABER MAIS</button>
+        </div>
+    </header>
+
+    <main>
+        <h2 class="main_h2">A agência Mundo Gelado</h2>
+        <p class="main_p">Nosso diferencial é te levar para conhecer as mais lindas e geladas paisagens no nosso
+            planeta, com conforto
+            e segurança.</p>
+        <p class="main_p">Nossos pacotes são completos e oferecem uma experiência inesquecível para você.</p>
+        <p class="main_p">Veja abaixo nossos destinos disponíveis, e se tiver alguma dúvida ou sugestão, entre em
+            contato com a gente.
+        </p>
+    </main>
+
+    <section>
+
+        <img class="section_img" src="./siberia.jpg">
+        <h3>Sibéria</h3>
+        <p class="p_siberia">O clima varia entre o clima polar e o clima continental. Na Sibéria situa-se o local
+            habitado mais frio do
+            mundo, a aldeia de Oymyakon.</p>
+        <hr class="hr_section">
+
+        <img class="section_img" src="./groenlandia.jpg">
+        <div class="bg_gradient">
+            <h3 class="section_h">Groenlândia</h3>
+            <p class="p_section_black">
+                A Groenlândia é a maior ilha do mundo e tem mais de 44 000 km de linha de costa.
+                A população é escassa,
+                confinada a pequenos povoados na costa. A ilha tem a segunda maior reserva de gelo do mundo, apenas
+                ultrapassada pela Antártida.
+            </p>
+        </div>
+        <hr class="hr_section">
+
+
+        <img class="section_img" src="./antartida.jpg">
+        <div class="bg_gradient">
+            <h3 class="section_h">Antártida</h3>
+            <p class="p_section_black">É o continente mais frio, mais seco, com a maior média de altitude e de maior
+                índice
+                de ventos fortes do
+                planeta.[1] A temperatura mais baixa da Terra (-89,2 °C) foi registrada na Antártica, sendo a
+                temperatura
+                média na costa, durante o verão, de -10 °C; no interior do continente, é de -40 °C.</p>
+        </div>
+        <hr class="hr_section">
+    </section>
+
+    <div class="bg_foto_final">
+        <div>
+            <img class="icone_loc" src="./icone-localizacao.png" alt="icone de avião de papel">
+            <h4 class="onde_estamos"> Aonde estamos</h4>
+            <p class="p_onde"> Praça Norival Tavares - Mogi das Cruzes - SP</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29266.447838523483!2d-46.19907501845179!3d-23.52149482095679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cdd838364b67a9%3A0xaefbb873981d8434!2sPra%C3%A7a%20Norival%20Gon%C3%A7alves%20Tavares%20-%20Jardim%20Esplanada%2C%20Mogi%20das%20Cruzes%20-%20SP%2C%2008780-120!5e0!3m2!1spt-BR!2sbr!4v1590028810132!5m2!1spt-BR!2sbr"
+                width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+        </div>
+
+        <!--Formulário-->
+        <div class="div_f">
+            <h5>Fale com um agente</h5>
+            <form action="https://formspree.io/xzbjdyky" method="POST">
+                <label>
+                    <p class="p_label">Nome:</p>
+                    <input type="text" name="_nome">
+                    <hr class="form_hr">
+                </label>
+                <label>
+                    <p class="p_label">Email:</p>
+                    <input type="email" name="_email">
+                    <hr class="form_hr">
+                </label>
+                <label>
+                    <p class="p_label">Telefone:</p>
+                    <input type="number" name="_telefone">
+                    <hr class="form_hr">
+                </label>
+                <label>
+                    <p class="p_label">Mensagem:</p>
+                    <textarea name="message"></textarea>
+                    <hr class="form_hr">
+                </label>
+
+                <div>
+                    <button class="btn_form" type="submit" placeholder="Digite aqui">Enviar</button>
+                </div>
+            </form>
+        </div>
+
+
+        <div>
+
+            <p class="p_footer"> Telefone: +55 (11)1234-1234</p>
+            <div class="icones_medias">
+                <a href="https://twitter.com" target="_blank"><img src="twitter.png" alt="ícone do twitter"></a>
+
+                <a href="https://facebook.com" target="_blank"><img src="facebook.png" alt="ícone do facebook"></a>
+
+                <a href="https://youtube.com" target="_blank"><img src="./youtube.png" alt="ícone do youtube"></a>
+            </div>
+            <footer>
+            <div class="div">
+                <p>Copyright © Agência Mundo gelado 2020</p>
+                <p>Feito por:<a href="https://portfolio-gabrielle.netlify.app/" target="_blank">Gabrielle
+                        Fernandes</a></p>
+        </footer>
+        </div>
+        
+</body>
+
+</html>
